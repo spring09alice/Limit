@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Limit.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/sprin/Desktop/Project_Alice/Limit/Limit/Intermediate/Build/Win64/x64/LimitEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/sprin/Desktop/Project_Alice/Limit/Limit/Intermediate/Build/Win64/x64/UnrealEditor/Development/Limit/Limit.cpp.obj"
+"C:/Users/sprin/Desktop/Project_Alice/Limit/Limit/Intermediate/Build/Win64/x64/UnrealEditor/Development/Limit/PerModuleInline.gen.cpp.obj"
+"C:/Users/sprin/Desktop/Project_Alice/Limit/Limit/Intermediate/Build/Win64/x64/UnrealEditor/Development/Limit/Default.rc2.res"
+/OUT:"C:/Users/sprin/Desktop/Project_Alice/Limit/Limit/Intermediate/Build/Win64/x64/UnrealEditor/Development/Limit/UnrealEditor-Limit.lib"
