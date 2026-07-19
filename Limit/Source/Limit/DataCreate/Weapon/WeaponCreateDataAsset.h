@@ -46,7 +46,7 @@ public:
 	bool bUseWeaponAnim = true;
 
 	UPROPERTY(EditAnywhere, Category = "WeaponMesh", meta = (DisplayName = "武器メッシュ", EditCondition = "bUseWeaponAnim == true", EditConditionHides))
-	TSoftObjectPtr<UStaticMesh> WeaponSkeletalMesh;
+	TSoftObjectPtr<USkeletalMesh> WeaponSkeletalMesh;
 
 	UPROPERTY(EditAnywhere, Category = "WeaponMesh", meta = (DisplayName = "武器メッシュ", EditCondition = "bUseWeaponAnim == false", EditConditionHides))
 	TSoftObjectPtr<UStaticMesh> WeaponStaticMesh;
