@@ -106,7 +106,7 @@ protected:
 
 public:
 	//ÉJÉÅÉâ
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere)
 	UCameraComponent* m_pCamera;
 
 	//--------------------------------------------

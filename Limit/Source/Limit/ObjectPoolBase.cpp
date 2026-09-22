@@ -104,7 +104,7 @@ TStatId UObjectPoolBase::GetStatId() const
 
 void UObjectPoolBase::Tick(float DeltaTime)
 {
-    UE_LOG(ObjectPool, Log, TEXT("Tick %f"), DeltaTime);
+    //UE_LOG(ObjectPool, Log, TEXT("Tick %f"), DeltaTime);
 
     // –ˆƒtƒŒ[ƒ€ˆ—
     for (int i = 0; i < m_poolObjects.Num(); ++i)

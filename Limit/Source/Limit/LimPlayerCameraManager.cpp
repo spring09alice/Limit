@@ -16,6 +16,8 @@ void ALimPlayerCameraManager::BeginPlay()
 {
     Super::BeginPlay();
 
+
+    //ViewTarget指摘しつつ生成
     m_pCamera = NewObject<UCameraComponent>(ViewTarget.Target);
 
     if (m_pCamera)
@@ -85,6 +87,8 @@ void ALimPlayerCameraManager::UpdateCamera(float _deltaTime)
 //プレイヤーカメラの回転更新
 void ALimPlayerCameraManager::UpdateCameraAngle(float _deltaTime)
 {
+    //UE_LOG(CameraManager, Log, TEXT("Input : x : %f , y : %f"), m_cameraAngleInputVal.X, m_cameraAngleInputVal.Y);
+
 
 }
 
