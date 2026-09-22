@@ -59,7 +59,7 @@ void UObjectPoolBase::RegisterPoolObject(AActor* _actor)
         return;
     }
     //ƒfƒŠƒQ[ƒg“o˜^
-    poolComp->mf_returnToPool.AddUObject(this, &ReturnToPool);
+    poolComp->mf_returnToPool.AddUObject(this, &UObjectPoolBase::ReturnToPool);
 
     //“o˜^
     m_poolObjects.Add(_actor);

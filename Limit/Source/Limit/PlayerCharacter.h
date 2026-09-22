@@ -4,10 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "FighterCharacter.h"
+
 #include "PlayerCharacter.generated.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(PlayerChara, Log, All);
+
 UCLASS()
-class LIMIT_API APlayerCharacter : public ACharacter
+class LIMIT_API APlayerCharacter : public AFighterCharacter
 {
 	GENERATED_BODY()
 
@@ -25,5 +29,56 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	// オリジナルメソッド /////////////////////////////////////////////////////
+
+public:
+
+
+	//--------------------------------------------
+	// ゲッター・セッター
+	//--------------------------------------------
+public:
+
+
+	//--------------------------------------------
+	// 更新処理  void (float _deltaTime)
+	//--------------------------------------------
+protected:
+
+	//--------------------------------------------
+	// イベント関数 void (  )
+	//--------------------------------------------
+public:
+
+
+protected:
+
+	// オリジナルプロパティ /////////////////////////////////////////////////////
+
+	//--------------------------------------------
+	// BPで設定 UPROPERTY()
+	//--------------------------------------------
+public:
+
+
+
+	//--------------------------------------------
+	// コンポーネント * UPROPERTY()
+	//--------------------------------------------
+protected:
+
+	//--------------------------------------------
+	// データ
+	//--------------------------------------------
+protected:
+
+
+
+	//--------------------------------------------
+	// フラグ bool
+	//--------------------------------------------
+protected:
+
 
 };
